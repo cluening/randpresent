@@ -1,0 +1,1 @@
+A simple script that simulates drawing numbers out of a hat to assign gift givers and receivers.  It's pretty dumb and doesn't check for duplication (a -> b and b -> a).
