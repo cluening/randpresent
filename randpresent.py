@@ -5,7 +5,14 @@ import operator
 import math
 from datetime import datetime
 
-nums = {"Ryan":     math.log(22507.2),
+nums = {"Ryan":     None,
+        "Cory":     None,
+        "Jenny":    None,
+        "Lis":      None,
+        "Quentin":  None,
+        "Kelcey":   None}
+
+nums2013 = {"Ryan":     math.log(22507.2),
         "Cory":     88,
         "Jenny":    2,
         "Lis":      (lambda x: ((x.microseconds + (x.seconds + x.days * 24 * 3600) * 10**6) / 10**6) / (365.0*24.0*60.0*60.0))(datetime.now() - datetime.strptime("04/15/09 8:23", "%m/%d/%y %H:%M")),
