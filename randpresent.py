@@ -9,7 +9,7 @@ nums = {"Ryan":     None,
         "Cory":     None,
         "Jenny":    None,
         "Lis":      None,
-        "Quentin":  None,
+        "Quentin":  73,
         "Kelcey":   None}
 
 nums2013 = {"Ryan":     math.log(22507.2),
