@@ -3,14 +3,15 @@
 import random
 import operator
 import math
+import os
 from datetime import datetime
 
-nums = {"Ryan":     None,
-        "Cory":     None,
-        "Jenny":    None,
-        "Lis":      None,
+nums = {"Ryan":     os.getpid(),
+        "Cory":     5056951313,
+        "Jenny":    320, # Too lazy to write a function to calculate phi(820)
+        "Lis":      1,
         "Quentin":  73,
-        "Kelcey":   None}
+        "Kelcey":   5524}
 
 nums2013 = {"Ryan":     math.log(22507.2),
         "Cory":     88,
