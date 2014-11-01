@@ -8,7 +8,7 @@ from datetime import datetime
 
 nums = {"Ryan":     os.getpid(),
         "Cory":     5056951313,
-        "Jenny":    320, # Too lazy to write a function to calculate phi(820)
+        "Jenny":    320, # Too lazy to write a function to calculate phi(820); just using the value from an online calculator
         "Lis":      1,
         "Quentin":  73,
         "Kelcey":   5524}
