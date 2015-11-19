@@ -6,7 +6,19 @@ import math
 import os
 from datetime import datetime
 
-nums = {"Ryan":     os.getpid(),
+def fib(n):
+  a,b = 1,1
+  for i in range(n-1):
+    a,b = b,a+b
+  return a
+
+nums = {"Ryan":    0,
+        "Cory":    849380234,
+        "Quentin": fib(346),
+        "Kelcey":  1145524,
+        "Lis":     8.6271}
+
+nums2014 = {"Ryan":     os.getpid(),
         "Cory":     5056951313,
         "Jenny":    320, # Too lazy to write a function to calculate phi(820); just using the value from an online calculator
         "Lis":      1,
