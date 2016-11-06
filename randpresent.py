@@ -12,7 +12,14 @@ def fib(n):
     a,b = b,a+b
   return a
 
-nums = {"Ryan":    0,
+nums = {"Ryan": 13579,
+        "Cory": 2.5,
+        "Lis": 987654321,
+        "Quentin": 26,
+        "Liz": 4343,
+        "Kelcey": 1}
+
+nums2015 = {"Ryan":    0,
         "Cory":    849380234,
         "Quentin": fib(346),
         "Kelcey":  1145524,
