@@ -12,18 +12,30 @@ def fib(n):
     a,b = b,a+b
   return a
 
-import forecastio
-api_key = os.environ['APIKEY']
 nums = {
-  "Ryan": forecastio.load_forecast(api_key, -77.8445, 166.6696).currently().temperature + 273.15,
-  "Cory": math.pi,
-  "Quentin": 44,
-  "Kelcey": 8409,
-  "Lis": 51.2,
-  "Liz": 43,
-  "Alisha": 123115,
-  "Alicia": 92384,
+  "Ryan": 201810131700,
+  "Cory": 99.99,
+  "Quentin": 39325,
+  "Kelcey": 6464864600,
+  "Lis": 101,
+  "Liz": 434343,
+  "Alisha": 164.3,
+  "Alicia": 12443,
 }
+
+
+#import forecastio
+#api_key = os.environ['APIKEY']
+#nums2017 = {
+#  "Ryan": forecastio.load_forecast(api_key, -77.8445, 166.6696).currently().temperature + 273.15,
+#  "Cory": math.pi,
+#  "Quentin": 44,
+#  "Kelcey": 8409,
+#  "Lis": 51.2,
+#  "Liz": 43,
+#  "Alisha": 123115,
+#  "Alicia": 92384,
+#}
 
 nums2016 = {"Ryan": 13579,
         "Cory": 2.5,
